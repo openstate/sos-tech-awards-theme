@@ -10,3 +10,4 @@ resources/assets/config-local.json
 
 *.swp
 *.swo
+*.pyc
