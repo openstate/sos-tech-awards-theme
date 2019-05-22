@@ -4,11 +4,7 @@ services:
     image: node:lts-alpine
     volumes:
       - ./:/theme
-      - ./../../../../nginx-load-balancer/docker/mkcert/accountabilityhack.nl/:/certs/
     working_dir: /theme
-    ports:
-      - '3000:3000'
-      - '3001:3001'
     networks:
       - nginx-load-balancer
     restart: always

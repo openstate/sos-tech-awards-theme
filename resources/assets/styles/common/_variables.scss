@@ -1,6 +1,6 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
-@import "node_modules/@ibm/plex/scss/ibm-plex.scss";
+$font-prefix: "~@ibm/plex";
 
 /* Open State Foundation huisstijlkleuren */
 // Primair
