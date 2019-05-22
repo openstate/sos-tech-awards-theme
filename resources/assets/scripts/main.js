@@ -14,13 +14,14 @@ import aboutUs from './routes/about';
 import { config, library, dom } from '@fortawesome/fontawesome-svg-core';
 // import required icons
 import { faCalendarPlus } from '@fortawesome/free-regular-svg-icons';
-import { faLongArrowAltRight, faLongArrowAltDown } from '@fortawesome/free-solid-svg-icons';
+import { faLongArrowAltRight, faLongArrowAltDown, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // allow usage in pseudo elements
 config.searchPseudoElements=true;
 
 // add the imported icons to the library
-library.add(faCalendarPlus, faLongArrowAltRight, faLongArrowAltDown);
+library.add(faCalendarPlus, faLongArrowAltRight, faLongArrowAltDown, faGithub, faEnvelopeOpen);
 
 // tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
 dom.watch();

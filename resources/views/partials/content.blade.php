@@ -11,10 +11,10 @@
           }
         @endphp
         @include('partials/entry-meta')
-        <h2 class="entry-title"><a href="{{ get_permalink($post['ID']) }}">{!! get_the_title($post['ID']) !!}</a></h2>
+        <h2 class="entry-title"><a href="{{ get_permalink() }}">{!! get_the_title() !!}</a></h2>
       </header>
       <div class="entry-summary">
-        {!! get_the_excerpt($post['ID']) !!}
+        {!! get_the_excerpt() !!}
       </div>
     </article>
   </div>

@@ -5,7 +5,7 @@
 
   <div class="row bg-white">
     <div class="col-12">
-      <div class="row call-to-action">
+      <div class="row call-to-action bg-lichtblauw">
         <div class="col-sm-4">
           <i class="far fa-calendar-plus fa-2x"></i> &nbsp;<h1 class="d-inline">09 JUN</h1>
         </div>
@@ -107,32 +107,17 @@ Kame    rgebouw in Den Haag.
   </div>
 
   <div class="row bg-white">
-    @php
-      $recent_posts = wp_get_recent_posts(array(
-          'numberposts' => 3,
-          'post_status' => 'publish'
-      ));
-      foreach($recent_posts as $post) :
-    @endphp
-      @include('partials.content-thumbnail')
-    @php
-      endforeach;
-      wp_reset_query();
-    @endphp
-
-    @php
-      $recent_posts = wp_get_recent_posts(array(
-          'numberposts' => 3,
-          'post_status' => 'publish'
-      ));
-      foreach($recent_posts as $post) :
-    @endphp
+    @php query_posts('posts_per_page=3'); @endphp
+    @while (have_posts()) @php the_post() @endphp
       @include('partials.content')
-    @php
-      endforeach;
-      wp_reset_query();
-    @endphp
+    @endwhile
+  </div>
 
-    LINKS NAAR NEWS/DATABLOG ARCHIEF
+  <div class="row bg-white text-right">
+    <div class="col-12 text-right">
+      <a href="@php bloginfo("template_url")@endphp/nieuws-datablogs/">Meer Nieuws & Datablogs</a>
+      <br>
+      <br>
+    </div>
   </div>
 </div>

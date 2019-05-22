@@ -4,6 +4,16 @@
   }
 
   .home .entry-padding {
+    height: 480px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .entry-padding {
+    height: 550px;
+  }
+
+  .home .entry-padding {
     height: 400px;
   }
 }
