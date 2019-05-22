@@ -1,0 +1,87 @@
+body {
+  font-family: $font-family-text;
+  color: $donkerblauw;
+  background-image: url("ACC-HACK-Background-home.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: $font-family-text;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+
+  a:hover {
+    color: $lightmagenta;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+h6 {
+  color: $oker;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 40px;
+
+  a:hover {
+    color: $geel;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+
+.bg-lichtblauw {
+  background-color: $lichtblauw;
+}
+
+.bg-donkerblauw {
+  background-color: $donkerblauw;
+}
+
+// TODO CHANGE TO DEFAULT MENU TEXT CLASS
+.menu-text {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+.btn {
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 4px 6px 0 8px !important;
+  margin-bottom: 14px;
+}
+
+.post-arrow {
+  display: inline-block;
+  padding: 5px;
+  width: 80px;
+}

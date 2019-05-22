@@ -1,0 +1,59 @@
+.frontpage {
+  margin-top: 300px;
+}
+
+.frontpage-tk-top {
+  margin-top: 18px;
+
+  img {
+    height: 30px;
+    padding-bottom: 7px;
+  }
+}
+
+.call-to-action {
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin: 0 0 25px 0;
+  border-bottom: 2px solid $donkerblauw;
+}
+
+.red-button {
+  border-radius: 0;
+  border: 2px solid $donkerblauw;
+  margin-bottom: 0;
+  padding-bottom: 4px !important;
+}
+
+.frontpage-down-arrow-spacer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.challenge {
+  margin: 0 0 25px 0;
+}
+
+.challenge-left {
+  padding-top: 20px;
+  padding-bottom: 6px;
+
+  img {
+    height: 64px;
+    padding-bottom: 14px;
+  }
+}
+
+.challenge1-right {
+  background-image: url("challenge1-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.challenge2-right {
+  background-image: url("challenge2-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

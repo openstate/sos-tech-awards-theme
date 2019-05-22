@@ -1,0 +1,28 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+@import "node_modules/@ibm/plex/scss/ibm-plex.scss";
+
+/* Open State Foundation huisstijlkleuren */
+// Primair
+$donkerblauw: #00003c;
+$lichtblauw: #c8ffff;
+
+// Accent
+$oker: #b37202;
+$geel: #ffae20;
+$magenta: #e72859;
+$lightmagenta: #ff486d;
+
+$theme-colors: (
+  primary: $magenta
+);
+
+@font-face {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+$font-family-text: "IBM Plex Sans";
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
