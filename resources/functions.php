@@ -104,3 +104,10 @@ if ( function_exists( 'add_theme_support' ) ) {
     add_image_size( 'square-large-xs-sm', 660, 250, true); // name, width, height, crop
     add_image_size( 'square-large', 350, 350, true); // name, width, height, crop
 }
+
+// Allow SVG file uploads
+function my_myme_types($mime_types){
+    $mime_types['svg'] = 'image/svg+xml'; //Adding svg extension
+    return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
