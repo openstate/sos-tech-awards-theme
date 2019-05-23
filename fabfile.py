@@ -12,4 +12,5 @@ def deploy():
         output = sudo('docker inspect --format="{{.State.Status}}" %s' % (NODE_CONTAINER))
         if output != 'running':
             exit('\n*** ERROR: The %s container, used to compile the assets, is not running. Please build/run/start the container.' % (NODE_CONTAINER))
+        sudo('docker exec %s yarn' % (NODE_CONTAINER))
         sudo('docker exec %s yarn build' % (NODE_CONTAINER))

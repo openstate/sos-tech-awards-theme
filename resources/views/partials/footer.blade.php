@@ -60,11 +60,8 @@
       </div>
     </div>
     <div class="row bg-donkerblauw icons">
-      <div class="col-6">
-        <h2>privacy verklaring</h2>
-      </div>
-      <div class="col-6 text-right">
-        <a href="mailto:contact@openstate.eu">
+      <div class="col-12 text-right">
+        <a href="mailto:acchack@openstate.eu">
           <i class="fas fa-envelope-open fa-2x"></i>
         </a>
         &nbsp;
