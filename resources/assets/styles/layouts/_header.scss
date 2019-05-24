@@ -18,13 +18,6 @@
   padding-bottom: 0;
 }
 
-.navbar-brand-img {
-  z-index: 10000;
-  position: fixed;
-  display: inline;
-  height: 190px;
-}
-
 .navbar-toggler {
   border: none;
   padding-top: 25px;
@@ -36,6 +29,36 @@
   }
 }
 
+@media (max-width: 768px) {
+  .menu {
+    padding: 10px 10px;
+  }
+
+  .navbar-brand-img {
+    width: 380px;
+  }
+
+  .navbar-toggler {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 544px) {
+  .navbar-brand-img {
+    width: 200px;
+  }
+
+  .navbar-toggler {
+    padding-left: 0;
+    padding-right: 0;
+
+    h1 {
+      font-size: 26px;
+    }
+  }
+}
+
 main {
-  margin-top: 300px;
+  margin-top: 200px;
 }

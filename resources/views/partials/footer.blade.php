@@ -61,6 +61,10 @@
     </div>
     <div class="row bg-donkerblauw icons">
       <div class="col-12 text-right">
+        <a href="https://twitter.com/search?q=%23AccHack19" target="_blank" rel="noopener"><h2 class="d-inline">#AccHack19</h2></a>
+        &nbsp;
+        &nbsp;
+        &nbsp;
         <a href="mailto:acchack@openstate.eu">
           <i class="fas fa-envelope-open fa-2x"></i>
         </a>
