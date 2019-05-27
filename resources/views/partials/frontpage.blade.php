@@ -13,11 +13,9 @@
           <h1>Meet-up</h1>
         </div>
         <div class="col-sm-4 text-right">
-          <button type="button" class="red-button btn btn-primary">
-            <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-meet-up-62301473384" target="_blank" rel="noopener">
-              <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-          </button>
+          <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-meet-up-62301473384" class="red-button btn btn-primary" target="_blank" rel="noopener">
+            <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -33,11 +31,9 @@
           <h1>Hackathon</h1>
         </div>
         <div class="col-sm-4 text-right">
-          <button type="button" class="red-button btn btn-primary">
-            <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-62302967854" target="_blank" rel="noopener">
-              <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-          </button>
+          <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-62302967854" class="red-button btn btn-primary" target="_blank" rel="noopener">
+            <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -83,11 +79,9 @@ Schrijf je in voor een challenge, maak gebruik van open data en creëer de winne
           <br> 
           <br> 
           <br> 
-          <button type="button" class="red-button btn btn-primary">
-            <a href="@php bloginfo("template_url")@endphp/challenge-1-lumpsumbekostiging-in-het-onderwijs/">
-              <h3 class="d-inline">meer info</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-          </button>
+          <a href="@php bloginfo("template_url")@endphp/challenge-1-lumpsumbekostiging-in-het-onderwijs/" class="red-button btn btn-primary">
+            <h3 class="d-inline">meer info</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -109,11 +103,9 @@ Schrijf je in voor een challenge, maak gebruik van open data en creëer de winne
           <br> 
           <br> 
           <br> 
-          <button type="button" class="red-button btn btn-primary">
-            <a href="@php bloginfo("template_url")@endphp/challenge-2-geneesmiddelenprijzen/">
-              <h3 class="d-inline">meer info</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-          </button>
+          <a href="@php bloginfo("template_url")@endphp/challenge-2-geneesmiddelenprijzen/" class="red-button btn btn-primary">
+            <h3 class="d-inline">meer info</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
     </div>

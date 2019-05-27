@@ -2,7 +2,7 @@
   <div class="container">
     <br>
     <div class="row bg-white">
-      <div class="col-12 offset-md-3 col-md-6 text-center">
+      <div class="col-12 offset-md-3 col-md-6 text-lg-center">
         <br>
         <a href="https://www.tweedekamer.nl/" target="_blank" rel="noopener">
           <img class="img-fluid" src="@asset('images/logo-tk.svg')" alt="Tweede Kamer logo">
@@ -14,21 +14,14 @@
     </div>
 
     <div class="row bg-white">
-      <div class="col-12 col-lg-4 text-center">
+      <div class="col-12 col-lg-6 text-left text-lg-center">
         <br>
         <br>
         <a href="https://www.rekenkamer.nl/" target="_blank" rel="noopener">
           <img class="img-fluid" src="@asset('images/logo-ar.svg')" alt="Algemene Rekenkamer logo">
         </a>
       </div>
-      <div class="col-12 col-lg-4 text-center">
-        <br>
-        <br>
-        <a href="https://openstate.eu/" target="_blank" rel="noopener">
-          <img class="img-fluid" src="@asset('images/logo-open-state.svg')" alt="Open State Foundation logo">
-        </a>
-      </div>
-      <div class="col-12 col-lg-4 text-center">
+      <div class="col-12 col-lg-6 text-lg-center">
         <br>
         <br>
         <a href="https://www.cbs.nl/" target="_blank" rel="noopener">
@@ -38,21 +31,27 @@
     </div>
 
     <div class="row bg-white">
-      <div class="col-12 col-lg-6 text-center">
+      <div class="col-12 col-lg-6 text-lg-center">
         <br>
         <br>
         <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties" target="_blank" rel="noopener">
           <img class="img-fluid" src="@asset('images/logo-minbzk.svg')" alt="Ministerie van Binnenlandse Zaken en Koninkrijksrelaties logo">
         </a>
-        <br>
-        <br>
-        <br>
       </div>
-      <div class="col-12 col-lg-6 text-center">
+      <div class="col-12 col-lg-6 text-lg-center">
         <br>
         <br>
         <a href="https://www.rijksoverheid.nl/ministeries/ministerie-van-financien" target="_blank" rel="noopener">
           <img class="img-fluid" src="@asset('images/logo-minfin.svg')" alt="Ministerie van Financiën logo">
+        </a>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-10 offset-1">
+        <br>
+        <br>
+        Met medewerking van: &nbsp;<a href="https://openstate.eu/" target="_blank" rel="noopener">
+          <img class="img-fluid" src="@asset('images/logo-open-state.svg')" alt="Open State Foundation logo">
         </a>
         <br>
         <br>
