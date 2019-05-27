@@ -94,7 +94,7 @@ Schrijf je in voor een challenge, maak gebruik van open data en creëer de winne
           <img src="@asset('images/ACC-HACK-Challenge-2.svg')"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="d-inline">Challenge 2: geneesmiddelenprijzen</h1>
           <br>
           <p>
-            Het is belangrijk ervoor te zorgen dat patiënten nu en in de toekomst toegang hebben tot betaalbare medicatie. Dit zou bijvoorbeeld kunnen door het aanpassen van referentielanden bij de vaststelling van maximumprijzen voor geneesmiddelen. Kan open data ons meer inzichten bieden?
+            Het is belangrijk ervoor te zorgen dat patiënten nu en in de toekomst toegang hebben tot betaalbare medicatie. Verschillende fracties <a href="https://www.tweedekamer.nl/debat_en_vergadering/uitgelicht/farmaceutische-industrie" target="_blank" rel="noopener">hebben aangedrongen</a> op het openbaar maken van medicijnprijzen, maar de minister voor Medische Zorg stelt dat er dan geen bedrijf meer bereid zou zijn om deel te nemen aan prijsonderhandelingen. Hij zet nu <a href="https://www.rijksoverheid.nl/onderwerpen/geneesmiddelen/betaalbaar-houden-van-geneesmiddelen" target="_blank" rel="noopener">onder meer</a> in op het aanpassen van referentielanden bij de vaststelling van maximumprijzen voor geneesmiddelen. Kan open data ons meer inzichten bieden?
           </p>
         </div>
         <div class="col-sm-6 challenge2-right text-right">
