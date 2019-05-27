@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="row bg-white">
-      <div class="col-10 offset-1">
+      <div class="col-4 offset-1">
         <br>
         <br>
         Met medewerking van: &nbsp;<a href="https://openstate.eu/" target="_blank" rel="noopener">

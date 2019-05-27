@@ -85,3 +85,21 @@ h6 {
   padding: 5px;
   width: 80px;
 }
+
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ *
+ * 1 */
+.ie9 footer img[src$=".svg"] {
+  width: 100%;
+}
+
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  footer img[src$=".svg"] {
+    width: 100%;
+  }
+}
