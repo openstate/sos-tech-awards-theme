@@ -91,20 +91,6 @@ Container::getInstance()
         ]);
     }, true);
 
-// Replaces the excerpt "more" text by a link
-function new_excerpt_more($more) {
-  global $post;
-  return '&nbsp;&nbsp;&nbsp;<a class="moretag" href="' . get_permalink($post->ID) . '"><img class="img-fluid post-arrow" src="' . get_template_directory_uri() . '/../dist/images/app-challenge-arrow-donkerblauw.svg" alt="Pijl"></a>';
-}
-add_filter('excerpt_more', 'new_excerpt_more');
-
-// Add square thumbnails https://stackoverflow.com/questions/14642567/big-square-wordpress-post-thumbnails
-if ( function_exists( 'add_theme_support' ) ) {
-    add_theme_support( 'post-thumbnails' );
-    add_image_size( 'square-large-xs-sm', 660, 250, true); // name, width, height, crop
-    add_image_size( 'square-large', 350, 350, true); // name, width, height, crop
-}
-
 // Allow SVG file uploads
 function my_myme_types($mime_types){
     $mime_types['svg'] = 'image/svg+xml'; //Adding svg extension
