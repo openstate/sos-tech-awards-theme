@@ -10,7 +10,7 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
-@import "~@ibm/plex/scss/ibm-plex.scss";
+@import "~@ibm/plex/scss/sans/index";
 
 /** Import theme styles */
 @import "common/global";
