@@ -7,24 +7,6 @@
     <div class="col-12">
       <div class="row call-to-action bg-lichtblauw">
         <div class="col-sm-4">
-          <i class="far fa-calendar-plus fa-2x"></i> &nbsp;<h1 class="d-inline">17 JUN</h1>
-        </div>
-        <div class="col-sm-4 text-center">
-          <h1>Meet-up</h1>
-        </div>
-        <div class="col-sm-4 text-right">
-          <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-meet-up-62301473384" class="red-button btn btn-primary" target="_blank" rel="noopener">
-            <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row bg-white">
-    <div class="col-12">
-      <div class="row call-to-action bg-lichtblauw">
-        <div class="col-sm-4">
           <i class="far fa-calendar-plus fa-2x"></i> &nbsp;<h1 class="d-inline">04 OKT</h1>
         </div>
         <div class="col-sm-4 text-center">
