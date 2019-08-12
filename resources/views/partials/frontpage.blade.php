@@ -17,6 +17,9 @@
             <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
           </a>
         </div>
+        <div class="col-12">
+          Inschrijven kan tot 20 september
+        </div>
       </div>
     </div>
   </div>
