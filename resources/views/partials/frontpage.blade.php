@@ -18,7 +18,7 @@
           </a>
         </div>
         <div class="col-12">
-          Inschrijven kan tot 20 september
+          Inschrijving gesloten
         </div>
       </div>
     </div>
@@ -37,6 +37,9 @@
           <a href="https://www.eventbrite.nl/e/tickets-side-events-accountability-hack-64720296148" class="red-button btn btn-primary" target="_blank" rel="noopener">
             <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
           </a>
+        </div>
+        <div class="col-12">
+          Aanmelden kan tot en met 1 oktober
         </div>
       </div>
     </div>
