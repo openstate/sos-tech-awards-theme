@@ -39,7 +39,7 @@
           </a>
         </div>
         <div class="col-12">
-          Aanmelden kan tot en met 1 oktober
+          Aanmelden kan tot en met 3 oktober
         </div>
       </div>
     </div>
