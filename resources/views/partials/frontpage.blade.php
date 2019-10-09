@@ -4,55 +4,10 @@
   </div>
 
   <div class="row bg-white">
-    <div class="col-12">
-      <div class="row call-to-action bg-lichtblauw">
-        <div class="col-sm-4">
-          <i class="far fa-calendar-plus fa-2x"></i> &nbsp;<h1 class="d-inline">04 OKT</h1>
-        </div>
-        <div class="col-sm-4 text-center">
-          <h1>Hackathon</h1>
-        </div>
-        <div class="col-sm-4 text-right">
-          <a href="https://www.eventbrite.nl/e/tickets-accountability-hack-62302967854" class="red-button btn btn-primary" target="_blank" rel="noopener">
-            <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-          </a>
-        </div>
-        <div class="col-12">
-          Inschrijving gesloten
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row bg-white">
-    <div class="col-12">
-      <div class="row call-to-action bg-lichtblauw">
-        <div class="col-sm-4">
-          <i class="far fa-calendar-plus fa-2x"></i> &nbsp;<h1 class="d-inline">04 OKT</h1>
-        </div>
-        <div class="col-sm-4 text-center">
-          <h1>Side-events</h1>
-        </div>
-        <div class="col-sm-4 text-right">
-          <a href="https://www.eventbrite.nl/e/tickets-side-events-accountability-hack-64720296148" class="red-button btn btn-primary" target="_blank" rel="noopener">
-            <h3 class="d-inline">meld je aan</h3> &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
-          </a>
-        </div>
-        <div class="col-12">
-          Aanmelden kan tot en met 3 oktober
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row bg-white">
     <div class="col-sm-8">
       <br>
       <p>
-        Welkom bij de derde editie van Accountability Hack. Tijdens dit evenement dagen wij jou uit om met behulp van open data een toepassing te creëren die de Tweede Kamerleden gaat helpen bij hun werk.
-<br>
-<br>
-Schrijf je in voor een challenge, maak gebruik van open data en creëer de winnende app waarvoor je €20.000 ontwikkelbudget krijgt om er een volwaardige tool van te bouwen.
+        Op 4 oktober 2019 vond Accountability Hack 2019 plaats. Na een lange dag programmeren in de Tweede Kamer hebben de bedenkers van de applicaties ‘Pharmalarm’ en ‘Pocket’ Accountability Hack 2019 én een ontwikkelbudget van 20.000 euro gewonnen. <a href="https://accountabilityhack.nl/2019/10/09/1430/">Lees hier meer over de dag</a>.
       </p>
     </div>
     <div class="col-sm-4">
