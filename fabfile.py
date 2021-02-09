@@ -9,7 +9,7 @@ GIT_REPO = 'accountability-hack-theme-2019'
 DIR = '/home/projects/wordpress-new/wp-content/themes/%s' % (GIT_REPO)
 
 # Container used to compile the assets
-NODE_CONTAINER = 'accountabilityhacktheme2019_node_1'
+NODE_CONTAINER = 'accountability-hack-theme-2019_node_1'
 
 # Server name
 SERVER = 'Oxygen'
