@@ -56,7 +56,7 @@
     "imagemin-mozjpeg": "~7.0.0",
     "imagemin-webpack-plugin": "~2.2.0",
     "import-glob": "~1.5",
-    "node-sass": "~4.9.4",
+    "node-sass": "~5.0.0",
     "postcss-loader": "~2.1.0",
     "postcss-safe-parser": "~3.0",
     "resolve-url-loader": "~2.3.1",
@@ -76,13 +76,14 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
+    "@fontsource/libre-franklin": "^4.2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-brands-svg-icons": "^5.8.2",
     "@fortawesome/free-regular-svg-icons": "^5.8.2",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
-    "@ibm/plex": "^1.4.1",
-    "bootstrap": "v4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+    "add2calendar": "^1.1.5",
+    "bootstrap": "v4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }

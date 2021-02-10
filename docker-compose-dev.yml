@@ -2,7 +2,7 @@ version: '3.1'
 services:
   node:
     volumes:
-      - ./../../../../nginx-load-balancer/docker/mkcert/accountabilityhack.nl/:/certs/
+      - ./../../../../nginx-load-balancer/docker/mkcert/sostechawards.nl/:/certs/
     ports:
       - '3000:3000'
       - '3001:3001'

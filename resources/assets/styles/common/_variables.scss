@@ -1,22 +1,21 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
-$font-prefix: "~@ibm/plex";
 
-// Primair
-$donkerblauw: #00003c;
-$lichtblauw: #c8ffff;
-
-// Accent
-$oker: #b37202;
-$geel: #ffae20;
-$magenta: #e72859;
-$lightmagenta: #ff486d;
+$wit: #f1f1f1;
+$grijs: #b6b6b6;
+$rood: #c12e22;
 
 $theme-colors: (
-  primary: $magenta
+  primary: $rood
 );
 
-$font-family-text: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+$font-family-text: "Libre Franklin", Arial, sans-serif;
+$font-family-title: "OPTITomaso", Arial, sans-serif;
+
+@font-face {
+  font-family: OPTITomaso;
+  src: url("fonts/OPTITomaso-Extended.otf") format("opentype");
+}
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;

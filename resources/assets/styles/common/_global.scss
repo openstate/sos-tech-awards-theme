@@ -1,8 +1,8 @@
 body {
   font-family: $font-family-text;
   word-wrap: break-word;
-  color: $donkerblauw;
-  background-image: url("../images/ACC-HACK-Background-home.png");
+  color: $wit;
+  background-image: url("../images/sos-background.svg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ p {
   line-height: 20px;
 
   a:hover {
-    color: $lightmagenta;
+    color: $rood;
     text-decoration: underline;
   }
 }
@@ -41,25 +41,36 @@ h3 {
   line-height: 24px;
 }
 
-h6 {
-  color: $oker;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  line-height: 40px;
-
-  a:hover {
-    color: $geel;
-    text-decoration: underline;
-  }
+.frontpage-logo {
+  width: 110px;
 }
 
-.bg-lichtblauw {
-  background-color: $lichtblauw;
+.frontpage-logo-text {
+  font-size: 19px;
+  line-height: 34px;
+  font-weight: 600;
 }
 
-.bg-donkerblauw {
-  background-color: $donkerblauw;
+.title p {
+  font-family: $font-family-title;
+  font-size: 75px;
+  line-height: 80px;
+  letter-spacing: 0.04em;
+}
+
+.subtitle p {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.text-grijs {
+  color: $grijs;
 }
 
 // TODO CHANGE TO DEFAULT MENU TEXT CLASS
@@ -69,20 +80,22 @@ h6 {
   line-height: 62px;
 }
 
-.btn {
-  color: #fff;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  text-align: left;
-  padding: 4px 6px 0 8px !important;
-  margin-bottom: 14px;
-}
-
 .post-arrow {
   display: inline-block;
   padding: 5px;
   width: 80px;
+}
+
+@media (max-width: 768px) {
+  .title p {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .subtitle p {
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 
 /*
