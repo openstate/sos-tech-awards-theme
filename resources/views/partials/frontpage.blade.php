@@ -32,6 +32,10 @@
           <a class="dropdown-item" id="cal-yahoo" href="#" target="_blank" rel="noopener">yahoo</a>
         </div>
       </div>
+      <br>
+      <div class="text-center">
+        Volg <a href="https://twitter.com/search?q=%23SOStech" target="_blank" rel="noopener">#SOStech</a> en blijf op de hoogte
+      </div>
     </div>
   </div>
 </div>
