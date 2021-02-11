@@ -34,7 +34,7 @@
       </div>
       <br>
       <div class="text-center">
-        Volg <a href="https://twitter.com/search?q=%23SOStech" target="_blank" rel="noopener">#SOStech</a> en blijf op de hoogte
+        Volg <a href="https://twitter.com/search?q=%23SOStech21" target="_blank" rel="noopener">#SOStech21</a> en blijf op de hoogte
       </div>
     </div>
   </div>
