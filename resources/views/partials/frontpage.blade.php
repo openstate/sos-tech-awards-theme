@@ -38,4 +38,26 @@
       </div>
     </div>
   </div>
+
+  <br>
+  <br>
+
+  <div class="row">
+    @php query_posts('posts_per_page=2'); @endphp
+    @while (have_posts()) @php the_post() @endphp
+      <div class="col-md-6">
+        @include('partials.content')
+      </div>
+    @endwhile
+  </div>
+
+  <div class="container">
+  <div class="row text-right">
+    <div class="col-12 text-right">
+      <a href="@php bloginfo("template_url")@endphp/nieuws/">Meer Nieuws</a>
+      <br>
+      <br>
+    </div>
+  </div>
+  </div>
 </div>

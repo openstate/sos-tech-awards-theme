@@ -1,4 +1,4 @@
-<div class="row bg-white">
+<div class="row">
   <div class="col-12">
     <article @php post_class() @endphp>
       <header>

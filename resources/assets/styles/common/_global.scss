@@ -2,6 +2,9 @@ body {
   font-family: $font-family-text;
   word-wrap: break-word;
   color: $wit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
   background-image: url("../images/sos-background.svg");
   height: 100%;
   background-position: center;
@@ -12,9 +15,10 @@ body {
 
 p {
   font-family: $font-family-text;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 32px;
+  color: $wit;
 
   a:hover {
     color: $rood;
@@ -29,9 +33,9 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 34px;
 }
 
 h3 {
@@ -39,6 +43,10 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: 24px;
+}
+
+.bg-grijs {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .frontpage-logo {
