@@ -92,5 +92,5 @@ add_filter('comments_template', function ($comments_template) {
 
 // Replaces the excerpt "more" text by an image
 add_filter('excerpt_more',  function    ()  {
-  return ' <a href="' . get_permalink() . '"><img class="img-fluid post-arrow" src="' . asset_path('images/app-challenge-arrow-donkerblauw.svg') . '" alt="Pijl"></a>';
+  return ' <a href="' . get_permalink() . '"><img class="img-fluid post-arrow" src="' . asset_path('images/app-challenge-arrow-rood.svg') . '" alt="Pijl"></a>';
 });

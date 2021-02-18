@@ -25,7 +25,6 @@
 
 .navbar-toggler {
   border: none;
-  padding-top: 25px;
   padding-bottom: 0;
   padding-right: 34px;
 
@@ -34,13 +33,15 @@
   }
 }
 
+.navbar-brand-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+
 @media (max-width: 768px) {
   .menu {
     padding: 10px 10px;
-  }
-
-  .navbar-brand-img {
-    width: 380px;
   }
 
   .navbar-toggler {
@@ -50,10 +51,6 @@
 }
 
 @media (max-width: 544px) {
-  .navbar-brand-img {
-    width: 200px;
-  }
-
   .navbar-toggler {
     padding-left: 0;
     padding-right: 0;

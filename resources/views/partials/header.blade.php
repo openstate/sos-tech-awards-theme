@@ -1,6 +1,10 @@
 <header class="banner">
   <div class="container">
     <nav class="bg-grijs nav-primary navbar navbar-light fixed-top text-right">
+      <a class="brand" href="{{ home_url('/') }}">
+        <img class="navbar-brand-img img-fluid" src="@asset('images/logo-sos.svg')">
+      </a>
+
       <button class="ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <h1 class="menu ml-auto">menu</h1>
       </button>
