@@ -55,7 +55,7 @@ h3 {
 }
 
 .frontpage-logo {
-  width: 110px;
+  width: 400px;
 }
 
 .frontpage-logo-text {
@@ -108,6 +108,12 @@ h3 {
   .subtitle p {
     font-size: 20px;
     line-height: 22px;
+  }
+}
+
+@media (max-width: 544px) {
+  .frontpage-logo {
+    width: 280px;
   }
 }
 
