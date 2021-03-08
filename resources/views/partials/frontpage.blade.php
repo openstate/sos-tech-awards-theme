@@ -10,7 +10,9 @@
       </div>
     </div>
   </div>
+
   <br>
+
   <div class="row">
     <div class="col-sm-12 text-center">
       <div class="subtitle">
@@ -35,6 +37,16 @@
       <br>
       <div class="text-center">
         Volg <a href="https://twitter.com/search?q=%23SOStech21" target="_blank" rel="noopener">#SOStech21</a> en blijf op de hoogte
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube-nocookie.com/embed/rkmivxPSV8I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
       </div>
     </div>
   </div>
