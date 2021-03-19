@@ -6,7 +6,7 @@ import getpass
 GIT_REPO = 'sos-tech-awards-theme'
 
 # Path of the directory
-DIR = '/home/projects/wordpress-new/wp-content/themes/%s' % (GIT_REPO)
+DIR = '/home/projects/wordpress/wp-content/themes/%s' % (GIT_REPO)
 
 # Container used to compile the assets
 NODE_CONTAINER = 'sos-tech-awards-theme_node_1'
