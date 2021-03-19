@@ -37,4 +37,4 @@ def deploy(c):
                 NODE_CONTAINER
             )
         )
-    c.sudo('docker exec %s yarn build:production' % (NODE_CONTAINER))
+    c.sudo('docker exec %s yarn build' % (NODE_CONTAINER))
