@@ -99,6 +99,10 @@ h3 {
   width: 150px;
 }
 
+.embed-border {
+  border: 5px solid $rood;
+}
+
 @media (max-width: 768px) {
   .title p {
     font-size: 40px;

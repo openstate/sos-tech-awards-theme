@@ -1,12 +1,8 @@
 <div class="frontpage">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <img class="frontpage-logo" src="@asset('images/logo-sos.svg')">
-      <p class="frontpage-logo-text">2021 EDITIE</p>
-      <br>
-      <div class="title">
-        <p>SETUP & OPEN STATE</p>
-        <p class="title weight-600">TECH AWARDS</p>
+      <div class="embed-responsive embed-responsive-16by9 embed-border">
+        <iframe src="https://www.youtube-nocookie.com/embed/rkmivxPSV8I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
       </div>
     </div>
   </div>
@@ -42,14 +38,6 @@
   </div>
 
   <br>
-
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube-nocookie.com/embed/rkmivxPSV8I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
-      </div>
-    </div>
-  </div>
 
   <br>
   <br>
