@@ -3,13 +3,13 @@ from invoke import Exit
 import getpass
 
 # Name of the git repository
-GIT_REPO = 'accountability-hack-theme-2019'
+GIT_REPO = 'sos-tech-awards-theme'
 
 # Path of the directory
 DIR = '/home/projects/wordpress-new/wp-content/themes/%s' % (GIT_REPO)
 
 # Container used to compile the assets
-NODE_CONTAINER = 'accountability-hack-theme-2019_node_1'
+NODE_CONTAINER = 'sos-tech-awards-theme_node_1'
 
 # Server name
 SERVER = 'Oxygen'
