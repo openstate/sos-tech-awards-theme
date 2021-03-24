@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-12 text-center">
       <div class="embed-responsive embed-responsive-16by9 embed-border">
-        <iframe src="https://www.youtube-nocookie.com/embed/rkmivxPSV8I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/GyrHSA5G3_k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
       </div>
     </div>
   </div>
